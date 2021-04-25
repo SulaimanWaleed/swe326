@@ -7,4 +7,12 @@ public class Main {
 			System.out.println(numbers[i]);
 	}
 
+	public void printArray(int[] array){
+		if(array.length != 0)
+		{
+			System.out.println(array[0]);
+			printArray(array[1]);
+		}
+	}
 }
+
