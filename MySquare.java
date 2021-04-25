@@ -7,6 +7,6 @@ public class MySquare {
 	}
 	
 	public double area() {
-		return side*side;
+		return side*2;
 	}
 }
